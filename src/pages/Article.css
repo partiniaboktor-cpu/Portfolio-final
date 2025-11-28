@@ -4,10 +4,33 @@
     padding-top: 5%;
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
 }
 .block1{
     background-color: #404B50;
+    width: 80%;
+    height: auto;
+    padding: 2% 2%;
 }
-.hh1{
+.hh{
     color: white;
+}
+.hhh{
+    color: white;
+    line-height: 30px;
+}
+.bigart{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+}
+.views{
+background-color: #C5C4C4;
+color: #404B50;
+padding: 1% 2%;
+float: right;
+margin-right: 8%;
 }

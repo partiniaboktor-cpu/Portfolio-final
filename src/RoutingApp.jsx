@@ -19,6 +19,7 @@ import UIprojects from './pages/UIprojects';
 import UIdetailone from './pages/UIdetailone';
 import UIdetailtwo from './pages/UIdetailtwo';
 import Article from './pages/Article';
+import Articledetail from './pages/Articledetail';
 
 
 const RoutingApp = () => {
@@ -44,6 +45,7 @@ const RoutingApp = () => {
         <Route path='/uidetailone' element={<UIdetailone />} />
         <Route path='/uidetailtwo' element={<UIdetailtwo />} />
         <Route path='/Article' element={<Article />} />
+        <Route path='/Articledetail' element={<Articledetail />} />
 
 
         
