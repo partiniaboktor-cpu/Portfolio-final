@@ -11,9 +11,6 @@
 }
 
 /* LOGO */
-.nav-logo {
-  /* width: 110px; */
-}
 
 /* RIGHT SECTION: AR + BURGER */
 .right-section {
@@ -100,13 +97,16 @@
 .dropdown-list {
   display: none;
   padding-left: 20px;
+  cursor: pointer;
 }
 
 .dropdown-list.open {
   display: block;
+    cursor: pointer;
 }
 
 .dropdown-list li {
   border: none;
   padding: 10px 0;
+    cursor: pointer;
 }
