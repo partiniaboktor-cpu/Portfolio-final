@@ -23,7 +23,8 @@ const Article = () => {
  UX/UI Designer</h1>
     
 <div className='block1'>
-    
+    <h2 className='hh'>1- Case study reflections</h2>
+    <p className='hhh'>Every project I design begins with understanding the problem from a user’s perspective. My case studies highlight the full journey — from initial research and wireframing to final interface design and testing. I focus on uncovering user pain points, transforming them into intuitive digital experiences that balance functionality with beauty. Each reflection showcases how thoughtful design decisions, guided by empathy and strategy, can create meaningful impact. Through these projects, I aim to demonstrate not only my visual skills but also my ability to think critically, collaborate effectively, and craft experiences that connect people with purpose.</p>
 </div>
 
 
