@@ -1,0 +1,118 @@
+.allprojectsux{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 5%;
+}
+.contentss{
+      justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projectone{
+    width: 20%;
+border-radius: 20px;
+border-color: #C5C4C4;
+border-width: 1px;
+border-style: solid;
+
+
+}
+.datess{
+    color: white;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+.uiimg{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.myportfolio{
+    color: white;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.datesss{
+    color: red;
+        padding-left: 4%;
+    padding-top: 5%;
+}
+/* ---- ANIMATIONS ---- */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+  0% { transform: scale(1.05); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ---- APPLY ANIMATIONS ---- */
+.projectone {
+  width: 20%;
+  border-radius: 20px;
+  border-color: #C5C4C4;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+/* Hover effect */
+.projectone:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0px 15px 40px rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+}
+
+/* CONTENT ANIMATION INSIDE */
+.contentss {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: fadeUp 1.2s ease forwards;
+}
+
+/* Image animation */
+.uiimg {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  animation: zoomIn 1.2s ease forwards;
+  transition: transform 0.5s ease;
+}
+
+/* Zoom image on hover */
+.projectone:hover .uiimg {
+  transform: scale(1.08);
+}
+
+/* Text slide effect */
+.myportfolio,
+.datess,
+.datesss {
+  animation: fadeUp 1.3s ease forwards;
+  opacity: 0;
+}
+
+.myportfolio {
+  animation-delay: 0.2s;
+}
+
+.datess {
+  animation-delay: 0.1s;
+}
+
+.datesss {
+  animation-delay: 0.3s;
+}

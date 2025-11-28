@@ -1,0 +1,204 @@
+body{
+    background-color: #1B2D35;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+gap: 8%;
+}
+.right-secs{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     gap: 2%;
+}
+.portfolio{
+    color: white;
+    font-size: 150px;
+}
+.see{
+    color:  white;
+    font-weight: 200;
+     padding-top: 10%;
+}
+.prof{
+     color:  white;
+    font-weight: 200;
+    padding-top: 10%;
+}
+.ux{
+     color:  white;
+    font-weight: 200;
+    padding-top: 10%;
+}
+.profux{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.sec-2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8%;
+    padding-top: 10%;
+}
+.rectangle{
+    background-color: #464e5385;
+    height: 350px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+
+}
+.table{
+    font-size: 50px;
+    color: #C5C4C4;
+    /* padding-top: 5%; */
+     font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.content{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 25%;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding-top: 15%;
+
+    
+}
+.st{
+     display: flex;
+    flex-direction: row;
+    gap: 15%;
+  
+}
+.ho{
+  font-size: 24px;
+    color: #C5C4C4;
+    font-weight: 100;
+}
+.hos{
+  font-size: 24px;
+    color: #C5C4C4;
+    font-weight: 100;
+    padding-bottom: 50%;
+}
+.col{
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    flex-direction: column;
+    gap: 15%;
+}
+.rr{
+      display: flex;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    flex-direction: column;
+  
+}
+.study{
+     display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5%;
+}
+.name{
+     display: flex;
+    flex-direction: column;
+}
+.date{
+color: white;
+font-size: 30px;
+}
+.edu{
+    color: #ffffff78;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 3%;
+}
+.title-line{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-left: 15%;
+}
+
+.line-skill{
+    background-color: #c5c4c451;
+    width: 100%;
+    height: auto;
+         display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+.skill-type{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2% 0;
+}
+.hrr{
+    width: 50%;
+    margin: 4% auto;
+}
+.all{
+     display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contact{
+     font-size: 80px;
+    color: #C5C4C4;
+    /* padding-top: 5%; */
+     font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 5%;
+  float: right;
+  padding-right: 8%;
+}

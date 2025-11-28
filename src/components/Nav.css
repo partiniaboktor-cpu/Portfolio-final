@@ -1,0 +1,112 @@
+/* HEADER */
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: #1f2c34;
+  color: white;
+  position: relative;
+  z-index: 10000;
+}
+
+/* LOGO */
+.nav-logo {
+  /* width: 110px; */
+}
+
+/* RIGHT SECTION: AR + BURGER */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* LANGUAGE BOX */
+.lang-box {
+  background: #5f6c75;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+}
+
+/* BURGER ICON */
+.burger {
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.burger .line {
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+/* BURGER ANIMATION */
+.burger.active .line:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+.burger.active .line:nth-child(2) {
+  opacity: 0;
+}
+.burger.active .line:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* SIDE MENU */
+.nav-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100vh;
+  background-color: #636b6f;
+  padding-top: 80px;
+  transition: right 0.4s ease;
+  z-index: 1000;
+}
+
+.nav-menu.active {
+  right: 0;
+}
+
+/* MENU CONTENT */
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 15px 25px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+/* DROPDOWN */
+.dropdown-list {
+  display: none;
+  padding-left: 20px;
+}
+
+.dropdown-list.open {
+  display: block;
+}
+
+.dropdown-list li {
+  border: none;
+  padding: 10px 0;
+}

@@ -1,0 +1,41 @@
+.scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  padding: 2rem 0;
+}
+
+/* Hide scrollbar for a cleaner look */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.sss {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  width: max-content; /* ensures items flow horizontally */
+  padding: 0 5%;
+}
+
+.project-card {
+  min-width: 300px; /* control card width */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fieldss {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.namee {
+  font-size: 24px;
+  font-weight: 200;
+  color: #c5c4c4;
+}

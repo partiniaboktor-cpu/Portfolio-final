@@ -1,0 +1,26 @@
+.over{
+    font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  padding-top: 6%;
+  padding-left: 8%;
+}
+.part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  gap: 8%;
+  padding-top: 5%;
+}
+.p1{
+  color: #C5C4C4;
+  line-height: 30px;
+  padding-left: 35%;
+}
+.hrr{
+    width: 50%;
+    margin: 4% auto;
+}

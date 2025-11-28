@@ -1,0 +1,10 @@
+.thes{
+    color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.block1{
+    background-color: #404B50;
+}
